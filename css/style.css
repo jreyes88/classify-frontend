@@ -45,3 +45,12 @@ src:url('../fonts/english_essay.ttf');
 li{
 	margin-bottom: 20px;
 }
+
+
+
+.outline{
+
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   /*-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: teal;*/
+}
