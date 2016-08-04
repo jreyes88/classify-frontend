@@ -1,0 +1,47 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+@font-face{
+font-family: englishessay;
+src:url('../fonts/english_essay.ttf');
+}
+
+@font-face{
+	font-family: barbarian;
+	src:url('../fonts/Barbarian.ttf');
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.classify{
+	font-family: englishessay;
+}
+
+.doomsquad{
+	font-family: barbarian;
+	font-size: 40px;
+	color:black;
+}
+
+.squad{
+	font-size: 150px;
+	font-family: barbarian;
+}
+
+.side-nav{
+	display: inline;
+}
+
+li{
+	margin-bottom: 20px;
+}
