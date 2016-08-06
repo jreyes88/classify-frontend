@@ -5292,7 +5292,7 @@ button.btn-floating {
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
-  will-change: top, opacity;
+  /*will-change: top, opacity;*/
 }
 
 @media only screen and (max-width: 992px) {
@@ -5337,7 +5337,7 @@ button.btn-floating {
   width: 100%;
   background: #000;
   display: none;
-  will-change: opacity;
+ /* will-change: opacity;*/
 }
 
 .modal.modal-fixed-footer {
@@ -5366,7 +5366,7 @@ button.btn-floating {
   width: 100%;
   max-height: 45%;
   border-radius: 0;
-  will-change: bottom, opacity;
+  /*will-change: bottom, opacity;*/
 }
 
 .collapsible {
@@ -7019,10 +7019,10 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
   z-index: 997;
-  will-change: opacity;
-}
+  /*will-change: opacity;
+}*/
 
 /*
     @license
