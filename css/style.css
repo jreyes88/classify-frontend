@@ -16,6 +16,11 @@ src:url('../fonts/english_essay.ttf');
 	font-family: barbarian;
 	src:url('../fonts/Barbarian.ttf');
 }
+
+@font-face{
+  font-family: kindergarten;
+  src:url('../fonts/KGMissKindergarten.ttf');
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -24,7 +29,7 @@ src:url('../fonts/english_essay.ttf');
 }
 
 .classify{
-	font-family: englishessay;
+	font-family: kindergarten;
 }
 
 .doomsquad{
