@@ -21,6 +21,11 @@ src:url('../fonts/english_essay.ttf');
   font-family: kindergarten;
   src:url('../fonts/KGMissKindergarten.ttf');
 }
+
+a {
+ font-family: kindergarten;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -122,6 +127,11 @@ li{
 .wireframeHeader {
   text-align: center;
 }
-.wireframeCalendar, .wireframePhoto {
+.wireframePhoto {
   width: 100%;
+}
+iframe {
+  width: 50vw;
+  height: 25vw;
+  margin: 0 auto;
 }

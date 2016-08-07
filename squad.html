@@ -45,14 +45,14 @@
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="Header title goes here..." id="headertext" type="text" class="validate">
-                                <label for="first_name">Heading</label>
+                                <input placeholder="Header title goes here..." type="text" class="validate headerText">
+                                <label for="header">Heading</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="Subtitle goes here..." id="subheadertext" type="text" class="validate">
-                                <label for="first_name">Subheading</label>
+                                <input placeholder="Subtitle goes here..." type="text" class="validate subheaderText">
+                                <label for="subheader">Subheading</label>
                             </div>
                         </div>
                 </div>
@@ -70,14 +70,8 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s6">
-                            <input placeholder="Header title goes here..." id="headertext" type="text" class="validate">
-                            <label for="first_name">Heading</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input placeholder="Subtitle goes here..." id="subheadertext" type="text" class="validate">
-                            <label for="first_name">Subheading</label>
+                            <input placeholder='<iframe src="https://calendar.google.com/calendar/embed?src=lisabattle%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>' class="iframeCalendar" type="text" class="validate">
+                            <label for="iframeCalendar">Enter your iframe embed link here!</label>
                         </div>
                     </div>
                 </form>
@@ -91,9 +85,15 @@
     <!-- Here lies the modal for media input -->
     <div id="media-modal" class="modal modal-fixed-footer">
         <div class="modal-content">
-            <h4 class="modalHead">Media</h4>
+            <h4 class="modalHead">YouTube</h4>
             <div class="modalContainer">
                 <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder='<iframe width="560" height="315" src="https://www.youtube.com/embed/HWvzhfI4SuM" frameborder="0" allowfullscreen></iframe>' class="youtubeLink" type="text" class="validate">
+                            <label for="youtubeLink">Enter YouTube embed URL here</label>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
