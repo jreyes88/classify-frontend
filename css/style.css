@@ -57,7 +57,7 @@ li{
   max-height: calc(100% - 100px);
   position: fixed;
     top: 50%;
-    left: 250%;
+    left: 25%;
   transform: translate(-50%, -50%);
 }
 
@@ -103,4 +103,20 @@ li{
 }
 
 
+/*header*/
+.squadBody {
+  margin-left: 21vw;
+}
 
+#wireframe {
+  min-height: 75vh;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.wireframeHeader {
+  text-align: center;
+}
+.wireframeCalendar, .wireframePhoto {
+  width: 100%;
+}
